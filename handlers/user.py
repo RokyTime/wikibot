@@ -22,17 +22,6 @@ async def inline_handler(query : types.InlineQuery):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 def register_handlers_user(dp : Dispatcher):
     dp.register_inline_handler(inline_handler)
     
