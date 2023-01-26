@@ -4,7 +4,7 @@ from aiogram.utils import executor
 from handlers import user
 
 
-def on_startup(_):
+async def on_startup(_):
     print('bot online')
 
 
